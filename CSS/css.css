@@ -410,18 +410,14 @@ nav a:hover {
 
 #redim {
   width: 25%;
-  overflow: visible; /* ← plus de coupure */
-  margin-top: 0;     /* ← supprime le décalage vers le haut */
-  flex-shrink: 0;
+ flex-shrink: 0;
   animation: mwa 4s ease-in-out infinite;
-    margin-top: -30px; 
+    margin-top: -80px; 
 }
 
 #redim img {
-  width: 100%;
-  height: auto;        /* ← hauteur naturelle, pas de rognage */
-  object-fit: contain; /* ← conserve les proportions */
-  display: block;
+  width: 120%;
+ display: block;
 }
 
 @keyframes mwa {
